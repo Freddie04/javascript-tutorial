@@ -44,6 +44,7 @@ function updateTasksText() {
 }
 
 updateTasksText();
+console.log("first");
 
 function updateDatabase(tasks) {
   localStorage.setItem("localTasks", JSON.stringify(tasks));

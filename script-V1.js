@@ -10,7 +10,7 @@ const numTasksActive = document.querySelector(".number_tasks-active");
 console.log(numTotalTaskElement);
 
 // FUNCTIONS
-
+console.log("kkk");
 // GLOBAL VARIABLE
 let tasks = JSON.parse(localStorage.getItem("localTasks")) || [];
 console.log(tasks);
