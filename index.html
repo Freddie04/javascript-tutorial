@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <article class="container">
+      <nav>
+        <input class="task-input" placeholder="Add a new task..." type="text" />
+        <button class="add-btn">+</button>
+      </nav>
+      <main>
+        <!-- active task -->
+        <section class="tasks-container">
+          <div class="section-bar active"><h3>Active Tasks</h3></div>
+          <div class="tasks tasks-active">
+            <!-- <div class="task" id="1">
+              <input type="checkbox" class="checkbox" />
+              <p class="task-text">first</p>
+              <div class="crud-btn">
+                <button class="update-btn">Update</button>
+                <button class="delete-btn">Delete</button>
+              </div>
+            </div> -->
+          </div>
+        </section>
+        <!-- completed task -->
+
+        <section class="tasks-container">
+          <div class="section-bar completed"><h3>Completed Tasks</h3></div>
+          <div class="tasks tasks-completed"></div>
+        </section>
+      </main>
+      <footer>
+        <p>Total Tasks : <span class="total-tasks">20</span></p>
+        <p>
+          Tasks completed :
+          <span class="number_tasks-completed" style="color: rgb(3, 59, 122)"
+            >20</span
+          >
+        </p>
+        <p>Tasks Active: <span class="number_tasks-active">20</span></p>
+      </footer>
+    </article>
+
+    <script src="./script.js"></script>
+    <script src="./practice.js"></script>
+  </body>
+</html>
